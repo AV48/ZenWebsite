@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 1em;
+  border: 3px solid #0033A0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dot2 {
+  height: 175px;
+  width: 175px;
+  background-color: #0033A0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+  margin-top: 0.5em;
+  margin-right: 1em;
+}
+
+.contactheading {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.contactinfo {
+  font-family: "Gil Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.contact-column {
+  text-align: left;
+  align-items: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.contactus {
+  background-color: #6597F8;
+  width: 100%;
+  height: 200px;
+  margin-top: 0.5em;
+
+}
+
+
+
+li {
+  display: inline;
+  text-align: center;
+  font-family: "Helvetica", Sans-Serif;
+  font-weight: 550;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #3974f3;
+  color: white;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 75px;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.front-header {
+  background-color: #6597F8;
+  width: 100%;
+  height: 275px;
+ text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dot {
+  height: 245px;
+  width: 245px;
+  background-color: #0033A0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0.5em;
+}
+
+.genex {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 50px;
+  color: #0033A0;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+}
+
+.image {
+  width: 225px;
+  height: 225px;
+  margin-left: 1em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-left: 1em;
+  margin-top: -0.75em;
+}
+
+.exercise-heading {
+font-family: "Gill Sans", sans-serif;
+color: #022164;
+font-size: 28px;
+font-weight: bold;
+  text-align: left;
+  margin-bottom: 0.25em;
+}
+
+.description {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  color: #022164;
+  text-align: left;
+  margin: 0.25em;
+  width: 90%;
+}
+
+.space {
+  height: 1px;
+}
+
+
