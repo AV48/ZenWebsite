@@ -1,0 +1,278 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 1em;
+  border: 3px solid #0033A0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.h {
+  margin-top: 0em;
+}
+
+label {
+  font-family: "Courier New", monospace;
+}
+
+
+
+li {
+  display: inline;
+  text-align: center;
+  font-family: "Helvetica", Sans-Serif;
+  font-weight: 550;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #3974f3;
+  color: white;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 75px;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.front-header {
+  background-color: #6597F8;
+  width: 100%;
+  height: 275px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.dot {
+  height: 245px;
+  width: 245px;
+  background-color: #0033A0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75px;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.h11 {
+  margin-bottom: 0.5em;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #0033A0;
+  
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 0em;
+}
+
+.game-container{
+  width: 800px;
+  padding: 20px;
+  border-radius: 50%;
+  row-gap: 15px;
+  margin-top: 0em;
+}
+
+
+.cards-container{
+  display: grid;
+  grid-template-rows: 125px 125px 125px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-gap: 20px 10px;
+  place-items: center;
+  margin-top: 0em;
+}
+
+.heading-container{
+  text-align: center;
+}
+
+
+.card{
+  justify-items: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.outline-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 125px;
+  width: 125px;
+  
+  border-radius: 50%;
+}
+
+.card-image{
+  height: 125px;
+  width: 125px;
+  transform: rotateY(90deg); 
+  transition: all ease-in 0.25s;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+
+}
+
+.progress-container{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 50px 0 20px 0;
+}
+
+.move-counter{
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-family: "Courier New", monospace;
+  color: #022164;
+}
+
+.restart-button{
+  padding: 10px 20px;
+  background-color: #022164;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+}
+
+.restart-button:hover{
+  background-color: transparent;
+  border: 1px solid #011237;
+  color: #011237;
+}
+
+/* Dynamic classes that are being added by JavaScript */
+.toggled .card-image { 
+  transform: rotateY(0deg); 
+  transition-delay: 0.25s; 
+} 
+
+.item .outline-image { 
+  transition: all ease-in 0.25s; 
+  transition-delay: 0.25s; 
+} 
+
+.toggled .outline-image { 
+  transform: rotateY(90deg); 
+  transition-delay: 0s; 
+}
+
+@media screen and (max-width: 767px) {
+  .game-container{
+      width: 100%;
+  }
+
+  .cards-container{
+      grid-template-rows: 125px 125px 125px 125px;
+      grid-template-columns: 33% 33% 33%;
+      grid-gap: 10px 10px;
+  }
+
+  .outline-image{
+      height: 100px;
+      width: 100px;
+  }
+
+  .card-image{
+      height: 100px;
+      width: 100px;
+  }
+
+  .progress-container{
+      margin: 10px 0 10px 0;
+  }
+
+}
+
+.contactheading {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.dot2 {
+  height: 175px;
+  width: 175px;
+  background-color: #0033A0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  font-family: "Lucida Handwriting", cursive;
+  margin-top: 0.5em;
+  margin-right: 1em;
+}
+
+.contactinfo {
+  font-family: "Gil Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.contact-column {
+  text-align: left;
+  align-items: left;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.contactus {
+  background-color: #6597F8;
+  width: 100%;
+  height: 200px;
+  margin-top: 0.5em;
+
+}
